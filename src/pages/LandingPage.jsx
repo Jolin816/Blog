@@ -5,8 +5,10 @@ import HomeHead from '/Users/jolin/git/Blog/src/component/HomeHead.jsx';
 function LandingPage() {
     return(
         <>
-            <HomeHead />
-            <Intro />
+            <div className='CONTAINER'>
+                <HomeHead className='Head'/>
+                <Intro className='Intro'/>
+            </div>
         </>
     )
 }

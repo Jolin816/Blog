@@ -1,39 +1,87 @@
 
-.hello {
+.CONTAINER {
     display: flex;
-    font-size: 70px;
-    margin-top: 0;
-    justify-content: center;
-    /* border: 3px solid blue; */
-    font-family: 'Amatic SC', cursive;
 }
 
-.profile_pic {
-    display: block;
-    width: 200px;
-    margin-top: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    /* border: 3px solid blue; */
+.Head {
+    display: flex;
 }
 
 .HEAD_CONTAINER {
-    display: flex;
+    display: block;
     height: 60px;
+    margin-top: 10px;
 }
 
-.home_pic {
+.ICON_CONTAINER {
     display: flex;
-    width: 65px;
-    height: 65px;
-    margin-top: 0px;
-    margin-left: 0px;
+    width: 200px;
+    height: 70px;
 }
 
 .head {
     display: flex;
     font-size: 43px;
     font-family: 'Amatic SC', cursive;
-    margin-top: 6.5px;
-    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.head:hover {
+    font-size: 50px;
+}
+
+.Intro {
+    display: flex;
+}
+
+.INTRO_CONTAINER {
+    display: block;
+    margin-left: 340px;
+    width: 400px;
+}
+
+.profile_pic {
+    display: flex;
+    width: 200px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 3px solid blue; */
+}
+
+.hello {
+    display: flex;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    justify-content: center;
+    /* border: 3px solid blue; */
+    font-family: 'Amatic SC', cursive;
+}
+
+.link {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 5px;
+    height: 40px;
+}
+
+.link:visited {
+    color: black;
+}
+
+.link:hover {
+    font-size: 30px;
+}
+
+.foot {
+    display: flex;
+    font-family: 'Amatic SC', cursive;
+    justify-content: center;
+    margin-top: 220px;
 }
