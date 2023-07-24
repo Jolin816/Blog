@@ -1,17 +1,26 @@
 import '/Users/jolin/git/Blog/src/stylesheets/landingpage.css'
+import { useNavigate } from "react-router-dom";
 
 function HomeHead() {
+    const navigate = useNavigate();
+
     return (
         <>
             <div className='HEAD_CONTAINER'>
                 <div className='ICON_CONTAINER'>
-                    <h4 className='head'>HOME</h4>
+                    <button className='head' onClick={() => navigate("/")}>
+                        HOME
+                    </button>
                 </div>
                 <div className='ICON_CONTAINER'>
-                    <h4 className='head'>PROJECTS</h4>
+                    <button className='head' onClick={() => navigate("/projects")}>
+                        PROJECTS
+                    </button>
                 </div>
                 <div className='ICON_CONTAINER'>
-                    <h4 className='head'>PHOTOS</h4>
+                    <button className='head' onClick={() => navigate("/gallery")}>
+                        GALLERY
+                    </button>
                 </div>
             </div>
         </>

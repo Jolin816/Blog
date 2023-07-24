@@ -23,9 +23,12 @@
     display: flex;
     font-size: 43px;
     font-family: 'Amatic SC', cursive;
+    font-weight: 600;
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 15px;
+    border: none;
+    background-color: white;
 }
 
 .head:hover {
@@ -57,7 +60,6 @@
     margin-top: 0;
     margin-bottom: 30px;
     justify-content: center;
-    /* border: 3px solid blue; */
     font-family: 'Amatic SC', cursive;
 }
 
@@ -76,7 +78,7 @@
 }
 
 .link:hover {
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .foot {
