@@ -5,11 +5,16 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import LandingPage from './pages/LandingPage'
 import Project from './pages/Project'
 import Gallery from './pages/Gallery'
+import Me from './pages/Me'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <LandingPage />,
+  },
+  {
+    path: "/me",
+    element: <Me />,
   },
   {
     path: "/projects",

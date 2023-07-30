@@ -13,6 +13,11 @@ function HomeHead() {
                     </button>
                 </div>
                 <div className='ICON_CONTAINER'>
+                    <button className='head' onClick={() => navigate("/me")}>
+                        ME
+                    </button>
+                </div>
+                <div className='ICON_CONTAINER'>
                     <button className='head' onClick={() => navigate("/projects")}>
                         PROJECTS
                     </button>
